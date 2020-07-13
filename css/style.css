@@ -142,3 +142,58 @@ body {
     padding: 4px;
     color: black;
 }
+@media screen and (max-width: 1394px) {
+    .presentation {
+        flex-direction: column;
+    }
+    #header-color {
+        height: 20vh;
+    }
+    #logo {
+        font-size: 20px;
+        margin-bottom:5px; 
+    }
+    #menu li {
+        text-align: center;
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 0px;
+
+    }
+    #cover-image {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .cover-text {
+        font-size: 18px;
+        
+    }
+    .image-text {
+        font-size: 15px;
+    }
+    .text {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        float: left;
+    }
+    .footer {
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+    }
+    .footer i {
+        text-align: center;
+        font-size: 130%;
+        margin: 1px;
+        padding: 1px;
+    }
+    .footer li {
+        display: inline;
+        margin: 40px;
+    }
+}
