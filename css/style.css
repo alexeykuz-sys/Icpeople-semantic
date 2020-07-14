@@ -6,19 +6,19 @@
 }
 
 body {
-    color: burlywood;
+    color: #E57A44;
     font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 #header-color {
-    background-color: rgb(220, 226, 225);
+    background-color:#E5E7E6;
     overflow: hidden;
 }
 
 #logo {
     float: left;
     font-size: 220%;
-    color: rgb(61, 56, 56);
+    color: #FC7A57;
     padding-left: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -53,11 +53,15 @@ body {
 .active {
     border-bottom: 1px solid black;
 }
+.presentation {
+    padding-bottom: 4.5rem;
+    position: relative;
+}
 
 .cover-text {
     text-align: right;
     font-size: 2em;
-    color: rgb(73, 48, 3);
+    color: #FC7A57;
     margin-bottom: 10px;
     margin-top: 70px;
     margin-right: 10px;
@@ -101,7 +105,7 @@ body {
 .image-text {
     text-transform: none;
     text-align: center;
-    color: rgb(230, 209, 199);
+    color: #FC7A57;
     margin-top: 30px;
     text-transform: uppercase;
 }
@@ -121,10 +125,14 @@ body {
 }
 
 .footer {
-    height: 150px;
+    clear: both;
+    width: 100%;
+    height: 4.5rem;
     text-align: center;
     color: #777777;
+    background-color: #E5E7E6;
 }
+
 
 .footer li {
     display: inline;
@@ -142,7 +150,7 @@ body {
     padding: 4px;
     color: black;
 }
-@media screen and (max-width: 1394px) {
+@media screen and (max-width: 924px) {
     .presentation {
         flex-direction: column;
     }
@@ -180,6 +188,7 @@ body {
         height: 90%;
         text-align: center;
         float: left;
+
     }
     .footer {
         font-size: 10px;
